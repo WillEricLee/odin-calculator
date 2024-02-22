@@ -13,6 +13,11 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     border: 10px solid red;
+
+    justify-content: right;
+    align-items: center;
+    font-size:48px;
+    color:white;
 }
 
 .buttons {
