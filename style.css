@@ -50,8 +50,14 @@ body {
 .key {
     display: flex;
     flex:1;
+    font-family: sans-serif;
+    color: white;
 
     border: 4px solid turquoise;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 48px;
 }
 #zero {
     flex:2;
