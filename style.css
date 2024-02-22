@@ -13,6 +13,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     border: 10px solid red;
+    padding: 10px;
 
     justify-content: right;
     align-items: center;
@@ -67,8 +68,11 @@ body {
 #zero {
     flex:2;
 }
+#clear {
+    flex:1;
+}
 #enter {
-    flex:3;
+    flex:2;
 }
 #add {
     flex:2;
