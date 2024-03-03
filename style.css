@@ -1,9 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/seven-segment');
 body {
     display:flex;
 
     align-items: center;
     flex-direction: column;
-    background-color: gray;
+    background-color: #DCDAE4;
 }
 
 .display {
@@ -12,20 +13,21 @@ body {
     height: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
-    border: 10px solid red;
+    border: 10px solid #6C4F25;
     padding: 10px;
 
     justify-content: right;
     align-items: center;
-    font-size:48px;
-    color:white;
+    font-size:96px;
+    background-color: #D8D292;
+    color:#6C4F25;
+    font-family: 'Seven Segment', sans-serif;
 }
 
 .buttons {
     display:flex;
     width: 800px;
     height: 1000px;
-    border: 10px solid orange;
 
     justify-content: center;
     align-items: center;
@@ -36,13 +38,11 @@ body {
     flex-direction: column;
     width: 600px;
     height: 1000px;
-    border: 4px solid green;
 }
 
 .leftRow {
     display: flex;
     flex: 1;
-    border: 4px solid yellow;
 }
 
 .rightHalf {
@@ -50,7 +50,6 @@ body {
     flex-direction: column;
     width: 200px;
     height: 1000px;
-    border: 4px solid green;
 }
 
 .key {
@@ -59,11 +58,13 @@ body {
     font-family: sans-serif;
     color: white;
 
-    border: 4px solid turquoise;
+    border:4px solid #DCDAE4;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
+    background-color: #1B3050;
 
-    font-size: 48px;
+    font-size: 64px;
 }
 #zero {
     flex:2;
@@ -73,6 +74,7 @@ body {
 }
 #enter {
     flex:2;
+    background-color: #6399AA;
 }
 #add {
     flex:2;
