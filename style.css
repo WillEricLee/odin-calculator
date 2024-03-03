@@ -9,10 +9,10 @@ body {
 
 .display {
     display:flex;
-    width: 800px;
-    height: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 600px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 10px solid #6C4F25;
     padding: 10px;
 
@@ -26,8 +26,8 @@ body {
 
 .buttons {
     display:flex;
-    width: 800px;
-    height: 1000px;
+    width: 600px;
+    height: 750px;
 
     justify-content: center;
     align-items: center;
@@ -36,8 +36,8 @@ body {
 .leftHalf {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 1000px;
+    width: 450px;
+    height: 750px;
 }
 
 .leftRow {
@@ -48,8 +48,8 @@ body {
 .rightHalf {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 1000px;
+    width: 150px;
+    height: 750px;
 }
 
 .key {
@@ -64,7 +64,7 @@ body {
     align-items: center;
     background-color: #1B3050;
 
-    font-size: 64px;
+    font-size: 50px;
 }
 #zero {
     flex:2;
